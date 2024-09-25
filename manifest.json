@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Video Source",
+    "version": "1.0",
+  
+    "description": "PLACEHOLDER",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.reddit.com/*"],
+        "js": [ "yap.js"]
+      }
+    ],
+    "browser_specific_settings": {
+    "gecko": {
+      "id": "addon@example.com",
+      "strict_min_version": "42.0"
+    }
+  }
+
+  }
+  
